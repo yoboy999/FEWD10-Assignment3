@@ -112,9 +112,20 @@ body {
 body h2{
     font-size: 40px;
 }
+
+body h5{
+    text-align: right;
+}
 .Main{
   float: left;
   width: 700px;
+  
+}
+
+.Main p::first-letter {
+  font-weight: bold;
+  font-size:3em;
+  color: red;
 }
 aside{
   clear:left;
@@ -126,13 +137,37 @@ aside{
 
 footer{
     clear: both;
-    background-color: black;
     text-align: center;
     color: white;
-    width: 100%
+    width: 100%; 
+    backgrougnd-color: black;
+
+}
+.signUp{
+    width: 130px;
+    margin:0 auto;
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    display: block;
+    border: solid;
 }
 
-footer span{
-    text-align: center;
-    color: white;
+.bottomLogo{
+    color: yellow;
+    font-weight: 600;
+    font-size: 24px;
+    background-color: black;  
+    padding:3%;
+
+}
+.SocialMedia{
+    background-color: black;
+    padding: 3%;
+}
+
+.copyright{
+    background-color: black;
+    padding: 3px;
 }
